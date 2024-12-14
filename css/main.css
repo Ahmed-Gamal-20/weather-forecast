@@ -1,0 +1,108 @@
+
+body{
+    background-color: #1E202B;
+}
+.nav1 {
+  background-color: #1e202b !important;
+  
+}
+
+a{color: white !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+    background-color: aliceblue;
+}
+
+a:hover{
+    border:#009AB6 1px solid;
+    border-radius: 30%;
+    color: #009AB6;
+    padding: 2px 4px;
+
+}
+li:hover a{
+    color: #009AB6!important;
+}
+li{
+    width: fit-content;
+}
+
+
+.tower{
+   background-image: url(../images/banner.png);
+   height: 50%;
+   object-fit: cover;
+   background-size: cover;
+   background-position: center;
+}
+.parent{
+    height: 100vh;
+    background-color: #1E202B;
+}
+/* --------------------------------------- */
+
+input{
+    background-color: #1E202B!important;
+
+
+color: white!important;
+}
+input::placeholder{
+    color: white !important; 
+
+}
+button{
+
+ 
+
+   background-color: #009AD8!important;
+   color: white!important;
+
+}
+/* ------------------------ */
+.item{ 
+    
+    background-color: #323544;
+  color:  #8E8F94;
+    width:400px ;
+    height: 400px;
+}
+
+.sitem{
+    background-color:#2D303D ;
+}
+.item h1{
+    color: white;
+font-size: 60px;
+}
+.item h6{
+    font-size: 25px;
+}
+.item i{
+    font-size: 15px;
+}
+
+.me{
+ height: 100vh;
+}
+
+.social i{
+    color:#009AD8!important;
+}
+.parent2{
+    background-color: #262936;
+    padding: 50px;
+}
+@media screen and (min-width: 900px){
+    .me{
+        height: 100px;
+    }
+}
+.social i{
+    font-size: 20px;
+}
+.social i:hover{
+  background-color: #009AB6!important;
+  color:white !important ;
+}
