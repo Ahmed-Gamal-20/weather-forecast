@@ -2,7 +2,7 @@ var searchInput = document.getElementById("search");
 
 var currentCity;
 async function getCurrentLocation() {
-  var curretRes = await fetch(`http://ip-api.com/json/?fields=city`);
+  var curretRes = await fetch(`https://ip-api.com/json/?fields=city`);
   var curretData = await curretRes.json();
   currentCity = curretData.city;
   console.log(currentCity);
@@ -12,7 +12,7 @@ async function getCurrentLocation() {
 var data;
 async function getCountry(country) {
   var res = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=068ed2b5c07d44849aa120354240712&q=${country}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=068ed2b5c07d44849aa120354240712&q=${country}&days=3`
   );
   data = await res.json();
 
